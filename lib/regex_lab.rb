@@ -9,6 +9,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.split("")
+  binding.pry
   text.scan(/\A(un)[a-z]*(ing)\z/)
 end
 
